@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <div className="container">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima hic
