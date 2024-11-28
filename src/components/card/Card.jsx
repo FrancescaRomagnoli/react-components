@@ -17,7 +17,7 @@ export default function Card() {
             nemo voluptate sint numquam laudantium. Facere perferendis incidunt
             quam molestias!
           </p>
-          <button>read more</button>
+          <button className="btn warning">leggi di più</button>
         </div>
       </div>
     </div>

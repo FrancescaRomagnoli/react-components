@@ -39,11 +39,26 @@ li {
   max-width: 100%;
 }
 
+.btn {
+  padding: 10px;
+  border-color: transparent;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.warning {
+  color: white;
+  background-color: #daa420;
+}
+
 /* # header */
 
 header h1 {
   text-align: center;
   margin-top: 20px;
+  font-size: 2.2rem;
 }
 
 /* # main */
@@ -52,13 +67,15 @@ header h1 {
   display: flex;
   justify-content: center;
   padding: 30px 0;
+  margin-bottom: 50px;
 }
 
 .card {
   max-width: 600px;
-  min-height: 650px;
   background-color: white;
   border-radius: 15px;
+
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.05);
 }
 
 .card-img {
@@ -67,7 +84,12 @@ header h1 {
 }
 
 .card-body {
-  padding: 10px 5px;
+  padding: 15px;
+}
+
+.card-body h3,
+.card-body p {
+  padding: 10px 0;
 }
 
 /* # footer */
@@ -75,8 +97,8 @@ header h1 {
 .footer {
   background-color: #333;
   color: white;
-  padding: 30px 0;
-  height: 100px;
+  padding: 40px 0;
+  height: 120px;
   font-size: 0.9rem;
   text-align: center;
 }
